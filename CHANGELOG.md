@@ -6,7 +6,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-[:simple-github: Diff since v2.3.0][Unreleased]
+[:simple-github: Diff since v2.3.1][Unreleased]
+
+## [2.3.1] - 2026-07-06
 
 ### Added
 - Native `py_ballisticcalc.exts` wheels for Android (`cp313-android_*`/`cp314-android_*`, `arm64_v8a`+`x86_64`) via a new `cibuildwheel[android]`-driven CI job — `.github/workflows/pypi-publish.yml`, `[tool.cibuildwheel.android]` in `py_ballisticcalc.exts/pyproject.toml` ([#339])
@@ -720,7 +722,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Issue #141
 - Trajectories that bend backwards
 
-[Unreleased]: https://github.com/o-murphy/py-ballisticcalc/compare/v2.3.0...HEAD
+[Unreleased]: https://github.com/o-murphy/py-ballisticcalc/compare/v2.3.1...HEAD
+[2.3.1]: https://github.com/o-murphy/py-ballisticcalc/releases/tag/v2.3.1
 [#339]: https://github.com/o-murphy/py-ballisticcalc/pull/339
 [#340]: https://github.com/o-murphy/py-ballisticcalc/pull/340
 [2.3.0]: https://github.com/o-murphy/py-ballisticcalc/releases/tag/v2.3.0
