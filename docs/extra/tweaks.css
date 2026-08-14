@@ -234,3 +234,14 @@ aside.blog img {
   font-weight: 700 !important;
   letter-spacing: -0.01em;
 }
+
+/* Headings use a geometric display face (Poppins), separate from the body font */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6,
+.md-header__topic {
+  font-family: "Poppins", var(--md-text-font-family);
+}
